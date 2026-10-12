@@ -1,0 +1,7 @@
+a = input('a=')
+b = input('b=')
+c = input('c=')
+cube_volume = int(a)*int(b)*int(c)
+cube_surface_area = 2*(int(a)*int(b)+int(a)*int(c)+int(b)*int(c))
+print(f'The volume of a cube is {cube_volume}.')
+print(f'The surface area of a cube is {cube_surface_area}.')
